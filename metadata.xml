@@ -1,0 +1,15 @@
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="exk467ptuutE14zkO5d6">
+<md:IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<md:KeyDescriptor use="signing">
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:X509Data>
+<ds:X509Certificate>MIIDsDCCApigAwIBAgIGAXcpYL7HMA0GCSqGSIb3DQEBCwUAMIGYMQswCQYDVQQGEwJVUzETMBEG A1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEU MBIGA1UECwwLU1NPUHJvdmlkZXIxGTAXBgNVBAMMEGxpbmtmbHVlbmNlLW9rdGExHDAaBgkqhkiG 9w0BCQEWDWluZm9Ab2t0YS5jb20wHhcNMjEwMTIyMDkxNDQyWhcNMzEwMTIyMDkxNTQyWjCBmDEL MAkGA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28x DTALBgNVBAoMBE9rdGExFDASBgNVBAsMC1NTT1Byb3ZpZGVyMRkwFwYDVQQDDBBsaW5rZmx1ZW5j ZS1va3RhMRwwGgYJKoZIhvcNAQkBFg1pbmZvQG9rdGEuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOC AQ8AMIIBCgKCAQEAoK/emxjf3kskj53kuBnIRYtyJ5YLZTrIY7n3G7TWTEo88VsO//ttyuiJIxRs Eb0h8lH/bKBrHRz6i/JMvBm3TngefpUA6AdR2FIn/1DShMxH7rwAX8ZssvRendUZ/i/IhC6vmfe5 PUpunIygEbWrns7GU9pxihZj2Qk4cPcrLtNCmYMR/RVm5mcuRyIlD25cgC93I1sDN5X2Y3i+8W5X bzjvlE+tiMT0TJTVIsZIyYZMp8hmXyK7Xm1/2rXtmXZ33/3Bw/lYocX8PWyOLoR/Wh4p9SKiD8uR PRV0HVOhlS1Hn4tCuu7GfBiCIqMqsxDnU8jRNgYsQ5KJ9NiGEfXVswIDAQABMA0GCSqGSIb3DQEB CwUAA4IBAQAlPFRmYAPBx43TaFal0JBjkhVLeDq79Q5dEBxJxZeADQD85dQDp/ApXt+0WYM/ufky xjs3R9XodkrwMX9vHtePQewOiB5t/8oTdOmI+mk46exCxLMtQGuvLdd4cWihmk0oSkKlLjVPA/Pg zSgytVi/6gjGKGnFpFIg5ESsMF337K4nEoxStzAr8594LBNv5BfjK9ZrITM3pFf9tD+m+X8EBDOe Wwy4rZK+yj3jObvGDtTU+gPnb+LEAajyZCRtBVetiDk87YHTxXJ+5tISbapaKi1SPL/mdDs2UCzp lC0xcvy+pHnPrKcir+vMyRXhzaaPkwg51gwoGMOMvcZ5g/r/</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+<md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+<md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat>
+<md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://linkfluence-okta.okta.com/app/generic-saml/exk467ptuutE14zkO5d6/sso/saml"/>
+<md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://linkfluence-okta.okta.com/app/generic-saml/exk467ptuutE14zkO5d6/sso/saml"/>
+</md:IDPSSODescriptor>
+</md:EntityDescriptor>
